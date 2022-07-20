@@ -1,6 +1,8 @@
 # Rootless Containers
 A rootless container system written in Go following along Liz Rice's presentation at the goto conference.
 
+Called gontainers because go+containers (haha funny)
+
 ### Setup: 
 * Create a filesystem to use a container image, and specify the path to the filesystem in `.env` under `CONTAINER_ROOT`
 * Create a control group system, or use the one already on your machine. If you'd like to use the one already on your computer, set `CGROUPS` in `.env` to `/sys/fs/cgroup`
